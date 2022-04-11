@@ -1,7 +1,4 @@
-import axios from 'axios';
-import { useState } from 'react';
-import { Input, Btn } from '../../../component'
-
+import { Btn, Input } from '../../../component';
 
 const Search = ({ click }) => {
     return (

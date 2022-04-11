@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Btn } from '../..'
-import { Car, ICCalender, ICSetting, ICUsers } from '../../../assets'
+import { ICCalender, ICSetting, ICUsers } from '../../../assets'
 const Card = ({ listData }) => {
     const rupiah = (number)=>{
         return new Intl.NumberFormat("id-ID",{
@@ -8,7 +8,6 @@ const Card = ({ listData }) => {
             currency: "IDR"
         }).format(number)
     }
-
 
     return (
         <>

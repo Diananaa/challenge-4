@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
-import { Card, Footer, Jumbotron, Navbar, Search } from "../../component"
-import axios from "axios"
+import axios from "axios";
+import { useState } from "react";
+import { Card, Footer, Jumbotron, Navbar, Search } from "../../component";
 
 const Home = () => {
     const [listCar, setListCar] = useState([]);
@@ -12,7 +12,6 @@ const Home = () => {
         setIsClickSearch(!isClickSearch);
     }
     
-
     return (
         <>
             <div className="bg-emerald-50">
